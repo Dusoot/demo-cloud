@@ -2,6 +2,4 @@ FROM node
 
 COPY . . 
 
-RUN npm instal
-
-CMD ["node","index.js"]
+CMD ["npm","instal","node","index.js"]
